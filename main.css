@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(rgba(66, 129, 231, 0.609), green, blue, alpha);
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    line-height: 55px;
+    background-color: rgba(73, 65, 173, 0);
+}
+nav { 
+    font-size: large;
+    align-content: center;
+}
+.large {
+    font-size: 60px;
+
+   }
+.center {
+   text-align: center;
+  }
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+li {
+    float: left;
+  }
+
+header li {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+section1 {
+    height: 300vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+section2 {
+    height: 200vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#name .profile-img {
+    width: 350px;
+    border-radius: 100%;
+}
+
+footer {
+    text-align: right;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#name h1 {
+    font-size: 50px;
+}
+
+section h2 {
+    font-size: 30px;
+}
+
+section h3 {
+    font-size: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 25px;
+   }
+   @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+   * {
+       box-sizing: border-box;
+   }
+   .box {
+       color:white;
+       font-size: 20px;
+       font-family: 'Montserrat Alternates', sans-serif;
+       text-align: center;
+       padding:15px;
+   }
+     
+     .box1 { background:#eccc68;}
+     .box2 { background:#ff6348;}
+     .box3 { background:#ff7f50;}
+     .box4 { background:#ff4757;}
+     .box5 { background:#f1c40f;}
+     .box6 { background:#e67e22;}
+     .box7 { background:#2ed573;}
+     .box8 { background:#1e90ff;}
+     .box9 { background:#c56cf0;}
+     .box10 { background:#18dcff;}
+   
+   .container {
+       display: flex;
+       min-height: 50vh;
+       flex-direction: column;
+       flex-wrap: wrap;
+   }
+
+#name {
+    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.85)), url('bg1.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255, 240, 240, 0.85),rgba(255,255,255,0.1)), url('bg2.jpeg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)), url('bg4.jpeg');
+}
+
+#python {
+    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.85)), url('matrix.jpg');
+}
+
+#decking {
+    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.85)), url('Woodworking.jpg');
+}
+
+#otherprojects {
+    background-image: linear-gradient(rgba(255, 240, 240, 0.85),rgba(255,255,255,0.1)), url('bg2.jpeg');
+}
